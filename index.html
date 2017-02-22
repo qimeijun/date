@@ -1,0 +1,32 @@
+<!doctype html>
+<html class="no-js">
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+		<title>日历</title>
+		<link type="text/css" rel="stylesheet" href="date.css"/>
+		<script src="jquery-1.8.3.min.js"></script>
+		<script src="jquery-date.js"></script>
+		<script src="date.js"></script>
+	</head>
+	<body>
+		<div class="date">
+			<div class="set-date">
+				<select id="set-year"></select>年
+				<select id="set-month"></select>月
+				<button id="date-sure">确定</button>
+			</div>
+			<!-- 日历头部  星期 -->
+			<div class="week cf">
+				<div>星期一</div>
+				<div>星期二</div>
+				<div>星期三</div>
+				<div>星期四</div>
+				<div>星期五</div>
+				<div>星期六</div>
+				<div>星期日</div>
+			</div>
+			<div class="day cf" id="show-day"></div>
+		</div>
+	</body>
+</html>

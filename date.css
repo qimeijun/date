@@ -1,0 +1,52 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+.cf:after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+}
+.set-date {
+    height: 50px;
+    text-align: left;
+    line-height: 50px;
+}
+#date-sure {
+    height: 30px;
+    width: 60px;
+    line-height: 30px;
+    border: none;
+    cursor: pointer;
+}
+.active {
+    background-color: #a5d1da;
+}
+.date {
+    width: 750px;
+}
+.week{
+    text-align: left;
+    background-color: beige;
+}
+
+.week div {
+    float: left;
+    height: 30px;
+    width: 100px;
+    line-height: 30px;
+    text-align: center;
+    background-color: beige;
+}
+.day {
+     text-align: left;
+    background-color: #d7f5d7;
+}
+.day div {
+    float: left;
+    height: 80px;
+    width: 100px;
+    line-height: 80px;
+    text-align: center;
+}
